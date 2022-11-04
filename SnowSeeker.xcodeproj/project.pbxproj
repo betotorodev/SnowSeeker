@@ -12,6 +12,7 @@
 		18A879C12914284000AC0D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A879C02914284000AC0D33 /* Assets.xcassets */; };
 		18A879C42914284000AC0D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A879C32914284000AC0D33 /* Preview Assets.xcassets */; };
 		18A879CC291561EE00AC0D33 /* TwoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A879CB291561EE00AC0D33 /* TwoViews.swift */; };
+		18A879CE2915668000AC0D33 /* SheetsAndAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A879CD2915668000AC0D33 /* SheetsAndAlertsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		18A879C02914284000AC0D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A879C32914284000AC0D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18A879CB291561EE00AC0D33 /* TwoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViews.swift; sourceTree = "<group>"; };
+		18A879CD2915668000AC0D33 /* SheetsAndAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsAndAlertsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				18A879CB291561EE00AC0D33 /* TwoViews.swift */,
+				18A879CD2915668000AC0D33 /* SheetsAndAlertsView.swift */,
 			);
 			path = exercises;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A879CC291561EE00AC0D33 /* TwoViews.swift in Sources */,
+				18A879CE2915668000AC0D33 /* SheetsAndAlertsView.swift in Sources */,
 				18A879BF2914283D00AC0D33 /* ContentView.swift in Sources */,
 				18A879BD2914283D00AC0D33 /* SnowSeekerApp.swift in Sources */,
 			);
