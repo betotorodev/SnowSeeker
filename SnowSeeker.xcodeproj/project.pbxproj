@@ -11,6 +11,7 @@
 		18A879BF2914283D00AC0D33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A879BE2914283D00AC0D33 /* ContentView.swift */; };
 		18A879C12914284000AC0D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A879C02914284000AC0D33 /* Assets.xcassets */; };
 		18A879C42914284000AC0D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A879C32914284000AC0D33 /* Preview Assets.xcassets */; };
+		18A879CC291561EE00AC0D33 /* TwoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A879CB291561EE00AC0D33 /* TwoViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		18A879BE2914283D00AC0D33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18A879C02914284000AC0D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A879C32914284000AC0D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A879CB291561EE00AC0D33 /* TwoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		18A879BB2914283D00AC0D33 /* SnowSeeker */ = {
 			isa = PBXGroup;
 			children = (
+				18A879CA291561C500AC0D33 /* exercises */,
 				18A879BC2914283D00AC0D33 /* SnowSeekerApp.swift */,
 				18A879BE2914283D00AC0D33 /* ContentView.swift */,
 				18A879C02914284000AC0D33 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				18A879C32914284000AC0D33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18A879CA291561C500AC0D33 /* exercises */ = {
+			isa = PBXGroup;
+			children = (
+				18A879CB291561EE00AC0D33 /* TwoViews.swift */,
+			);
+			path = exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A879CC291561EE00AC0D33 /* TwoViews.swift in Sources */,
 				18A879BF2914283D00AC0D33 /* ContentView.swift in Sources */,
 				18A879BD2914283D00AC0D33 /* SnowSeekerApp.swift in Sources */,
 			);
