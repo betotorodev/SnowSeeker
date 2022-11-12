@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// último proyecto 😭
+
 extension View {
   @ViewBuilder func phoneOnlyStackNavigationView() -> some View {
     if UIDevice.current.userInterfaceIdiom == .phone {
